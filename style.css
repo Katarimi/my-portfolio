@@ -1,0 +1,152 @@
+
+nav{   
+    background-color: #DA95D5;
+}
+
+.nav a{
+    color:#F9F9F9;
+    font-weight: bold;    
+    font-size: large;
+}
+
+main{
+    margin: 0;
+    padding: 0;
+    background-color: #F9F9F9;
+}
+
+.top-container{
+    position: relative;
+    padding-top: 100px; 
+    text-align: center;
+    background-color: #B81DFA;
+}
+
+.star{
+    height: 40px;
+}
+
+.top-star{
+    position:absolute;   
+    left: 50%;
+    top: 80px;
+}
+
+.second-star{
+    left: 50%;
+    margin: 20px 100px;
+}
+
+@media (max-width:1024px){
+    .second-star{
+        display: none;
+    }
+}
+
+.bottom-star{
+    position: absolute;
+    bottom: 200px;
+    margin: 100px 0px 30px
+}
+
+.bottom-star-right{
+    right: 400px;
+}
+
+@media (max-width:1024px) or (min-width:1601px){
+    .bottom-star-right{
+        display: none;
+    }
+}
+
+.bottom-star-left{
+    left : 400px;
+}
+
+@media (max-width:481px) or (min-width:1601px){
+    .bottom-star-left{
+        display: none;
+    }
+}
+
+.rocket{
+    height: 130px;
+    margin: 70px 60px 60px;
+}
+
+.name {
+    font-family: 'Sacramento', cursive;
+    font-weight: bold;
+    color: #DA95D5;
+    font-size: 6rem;
+    margin: 30px auto 0px
+}
+
+.name-spec{
+    color: #F9F9F9;
+    padding-bottom: 30px
+}
+
+.about-sec{
+    justify-content: center;
+    text-align: center;
+    margin: 100px
+}
+
+h2{
+    color: #FFE45E;
+    font-size: 2rem;
+    padding-bottom: 10px;
+}
+
+
+h3{
+    color: #DA95D5;
+    font-size: 2rem;
+    padding-bottom: 10px;
+}
+
+.profile-pic{
+    border:3px solid #FF6392;
+    height:180px;
+    border-radius: 50%;
+}
+
+.project-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-item img{
+height: 180px;
+width: 300px;
+border: 6px double #FF6392;
+margin: 1.5rem;
+}
+
+.btn-contact{
+    background-color: #B81DFA;
+    font-weight: bold;
+    color: #FFE45E;
+    border: #FFE45E;
+    margin-top: 50px;
+    font-size: 1.3rem
+}
+
+footer{
+    background-color: #DA95D5;
+}
+
+.footer{
+    color: #F9F9F9;
+}
+
+hr{
+    border:10px dotted;
+    border-bottom: none;
+    width: 8%;
+    margin: 80px auto;
+    color: #FF6392;
+}
